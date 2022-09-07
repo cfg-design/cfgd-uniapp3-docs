@@ -1,6 +1,7 @@
 import { defineConfigWithTheme } from 'vitepress'
 
 const config = defineConfigWithTheme({
+  base: '/cfgd-uniapp3-docs/',
   outDir: '../docs',
 
   lang: 'zh-CN',

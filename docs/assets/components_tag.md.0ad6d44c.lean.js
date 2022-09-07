@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t,a as r}from"./app.2df687cb.js";const l=JSON.parse('{"title":"Tag \u6807\u7B7E","description":"","frontmatter":{"title":"Tag \u6807\u7B7E"},"headers":[],"relativePath":"components/tag.md"}'),s={name:"components/tag.md"},n=r("",3),i=[n];function o(c,_,d,h,p,g){return t(),e("div",null,i)}const m=a(s,[["render",o]]);export{l as __pageData,m as default};

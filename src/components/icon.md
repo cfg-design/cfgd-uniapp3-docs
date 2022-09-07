@@ -92,34 +92,16 @@ addIcons({
 <c-icon size="100" name="add-line" />
 ```
 
-### 配置 Props
-* [Props 的使用](/guide/props.html)
-
-```ts
-import { setIconConfigs } from '@/uni_modules/cfg-design'
-
-setIconConfigs({
-  default: { ... }, // 默认配置
-  myIcon1: { ... },  // 自定义配置
-  myIcon2: { ... }, // 自定义配置
-})
-```
-
-```vue-html
-<c-icon c="myIcon1" name="add-line" />
-<c-icon c="myIcon2" name="add-line" />
-```
-
 ### API
 
 ### Icon Props {#props}
 
 | 名称             | 类型                     | 默认值             | 版本           | 说明           |
 |:----------------|:------------------------|:------------------|:--------------|:--------------|
-| c               | string                  | default           |               | 配置名。[使用](#配置-props)    |
-| props           | IconProps               | undefined         |               | 全部 props 。 [Props 的使用](/guide/props.html) |
+| c               | string                  | default           |               | 配置名。[使用说明](/guide/props.html#config)    |
+| props           | IconProps               | undefined         |               | 全部 props 。 [使用说明](/guide/props.html) |
 | text-props      | TextProps               | undefined         |               | CIcon 组件是引用 CText 实现的。[TextProps](/components/text.html#props) |
 | family          | string                  | c-icon            |               | 字体名称   |
 | name            | string                  | undefined         |               | 图标名称   |
-| size            | string \| number        | undefined         |               | 图标大小。 [大小的使用](/guide/font-sizes.html)   |
-| color           | string                  | undefined         |               | 图标颜色。 [颜色的使用](/guide/colors.html)   |
+| size            | string \| number        | undefined         |               | 图标大小。 [使用说明](/guide/font-sizes.html)   |
+| color           | string                  | undefined         |               | 图标颜色。 [使用说明](/guide/colors.html)   |

@@ -41,37 +41,19 @@ title: Text 文本
 <c-text size="100" text="100 文本" />
 ```
 
-### 配置 Props
-* [Props 的使用](/guide/props.html)
-
-```ts
-import { setTextConfigs } from '@/uni_modules/cfg-design'
-
-setTextConfigs({
-  default: { ... }, // 默认配置
-  myText1: { ... },  // 自定义配置
-  myText2: { ... }, // 自定义配置
-})
-```
-
-```vue-html
-<c-text c="myText1" text="text1" />
-<c-text c="myText2">text2</c-text>
-```
-
 ### API
 
 ### Text Props {#props}
 
 | 名称             | 类型                     | 默认值             | 版本           | 说明           |
 |:----------------|:------------------------|:------------------|:--------------|:--------------|
-| c               | string                  | default           |               | 配置名。[使用](#配置-props)    |
-| props           | TextProps               | undefined         |               | 全部 props 。 [Props 的使用](/guide/props.html) |
+| c               | string                  | default           |               | 配置名。[使用说明](/guide/props.html#config)    |
+| props           | TextProps               | undefined         |               | 全部 props 。 [使用说明](/guide/props.html) |
 | c-class         | HTMLAttributes['class'] | undefined         |               | 自定义类名 |
 | c-style         | HTMLAttributes['style'] | undefined         |               | 自定义样式 |
 | text            | string                  | undefined         |               | 显示文字   |
-| color           | string                  | main              |               | 字体颜色。 [颜色的使用](/guide/colors.html)   |
-| size            | string \| number        | m                 |               | 字体大小。 [大小的使用](/guide/font-sizes.html)   |
+| color           | string                  | main              |               | 字体颜色。 [使用说明](/guide/colors.html)   |
+| size            | string \| number        | m                 |               | 字体大小。 [使用说明](/guide/font-sizes.html)   |
 | strong          | boolean                 | false             |               | 是否粗体   |
 | italic          | boolean                 | false             |               | 是否斜体   |
 | underline       | boolean                 | false             |               | 是否显示下划线   |

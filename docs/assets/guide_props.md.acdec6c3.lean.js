@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,a as p}from"./app.0c7a61a7.js";const i=JSON.parse('{"title":"Props","description":"","frontmatter":{"title":"Props"},"headers":[],"relativePath":"guide/props.md"}'),o={name:"guide/props.md"},l=p("",12),t=[l];function e(c,D,F,r,y,C){return a(),n("div",null,t)}const u=s(o,[["render",e]]);export{i as __pageData,u as default};

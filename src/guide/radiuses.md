@@ -11,7 +11,10 @@ title: Radius 圆角值
 ### 基本使用
 
 ```vue-html
+<c-avatar radius="xs" />
+<c-avatar radius="s" />
 <c-avatar radius="m" />
+<c-avatar radius="l" />
 ```
 
 ```ts

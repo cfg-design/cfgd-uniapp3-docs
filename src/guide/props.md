@@ -31,7 +31,6 @@ props 有 config.props 、 component.props 和 component.props.props
 
 数组类型合并
 
-
 ```vue-html
 <c-text :props="{ cClass: 'my-text-0' }" c-class="my-text-1" text="text" />
 // class="c-text my-text-1"  不会合并，因为都字符串
@@ -40,6 +39,9 @@ props 有 config.props 、 component.props 和 component.props.props
 // class="c-text my-text-0 my-text-1"  会合并，有一个是数组
 ```
 
+### Config 使用 {#config}
+
+全部组件都支持。下面例子是 CText 组件使用说明，其它组件使用方法类似。
 
 设置 config.props
 
@@ -60,4 +62,11 @@ import { useTextConfigs } from '@/uni_modules/cfg-design'
 
 const textConfigs = useTextConfigs()
 console.log(textConfigs.value)
+```
+
+使用 config.props
+
+```vue-html
+<c-text c="myText1" text="text1" />
+<c-text c="myText2" text="text1" />
 ```

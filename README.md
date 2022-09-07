@@ -3,4 +3,4 @@
 
 ## 版权声明
 
-除官方中文文档 [cfg-design.github.io/cfgd-uniapp3-docs](https://cfg-design.github.io/cfgd-uniapp3-docs/) 之外，不得在其它域名下进行未经授权的转载或部署。
+除官方文档 [cfg-design.github.io/cfgd-uniapp3-docs](https://cfg-design.github.io/cfgd-uniapp3-docs/) 之外，不得在其它域名下进行未经授权的转载或部署。

@@ -53,36 +53,20 @@ title: Button 按钮
 <c-button radius="xs s m l" text="各角不同的按钮" />
 ```
 
-### 配置 Props
-* [Props 的使用](/guide/props.html)
-
-```ts
-import { setButtonConfigs } from '@/uni_modules/cfg-design'
-
-setButtonConfigs({
-  default: { ... }, // 默认配置
-  myButton: { ... },  // 自定义配置
-})
-```
-
-```vue-html
-<c-button c="myButton" text="text1" />
-```
-
 ### API
 
 ### Button Props {#props}
 
 | 名称             | 类型                    | 默认值             | 版本           | 说明           |
 |:----------------|:------------------------|:------------------|:--------------|:--------------|
-| c               | string                  | default           |               | 配置名。[使用](#配置-props)    |
-| props           | ButtonProps             | undefined         |               | 全部 props 。 [Props 的使用](/guide/props.html) |
+| c               | string                  | default           |               | 配置名。[使用说明](/guide/props.html#config)    |
+| props           | ButtonProps             | undefined         |               | 全部 props 。 [使用说明](/guide/props.html) |
 | c-class         | HTMLAttributes['class'] | undefined         |               | 自定义类名 |
 | c-style         | HTMLAttributes['style'] | undefined         |               | 自定义样式 |
 | text            | string                  | undefined         |               | 显示文字   |
-| color           | string                  | undefined         |               | 按钮颜色。 [颜色的使用](/guide/colors.html)   |
+| color           | string                  | undefined         |               | 按钮颜色。 [使用说明](/guide/colors.html)   |
 | color2          | string                  | undefined         |               | 与 color 组成渐变背景。  |
-| size            | string \| number        | m                 |               | 字体大小。 [大小的使用](/guide/font-sizes.html)   |
+| size            | string \| number        | m                 |               | 字体大小。 [使用说明](/guide/font-sizes.html)   |
 | width           | string | number         | undefined         |               | 宽度  |
 | height          | string | number         | undefined         |               | 高度  |
 | text            | string                  | undefined         |               | 文字  |
@@ -90,8 +74,8 @@ setButtonConfigs({
 | text-props      | TextProps               | undefined         |               | [TextProps](/components/text.html#props)  |
 | icon            | string                  | undefined         |               | 图标  |
 | icon-props      | IconProps               | undefined         |               | [IconProps](/components/icon.html#props)  |
-| radius          | string | number         | s                 |               | 圆角值。 [圆角值的使用](/guide/radiuses.html)  |
-| round           | boolean                 | undefined         |               | 是否显示为圆形。  |
+| radius          | string | number         | s                 |               | 圆角值。 [使用说明](/guide/radiuses.html)  |
+| round           | boolean                 | undefined         |               | 是否显示为圆角。  |
 | disabled        | boolean                 | undefined         |               | 是否禁用  |
 | loading         | boolean                 | undefined         |               | 是否加载中  |
 | spin-props      | SpinProps               | undefined         |               | 加载。[SpinProps](/components/spin.html#props)  |

@@ -18,30 +18,14 @@ title: Cell 单元格
 />
 ```
 
-### 配置 Props
-* [Props 的使用](/guide/props.html)
-
-```ts
-import { setCellConfigs } from '@/uni_modules/cfg-design'
-
-setCellConfigs({
-  default: { ... }, // 默认配置
-  myCell: { ... },  // 自定义配置
-})
-```
-
-```vue-html
-<c-button c="myCell" label="label" value="value" />
-```
-
 ### API
 
 ### Cell Props {#props}
 
 | 名称               | 类型                    | 默认值             | 版本           | 说明           |
 |:------------------|:------------------------|:------------------|:--------------|:--------------|
-| c                 | string                  | default           |               | 配置名。[使用](#配置-props)    |
-| props             | CellProps               | undefined         |               | 全部 props 。 [Props 的使用](/guide/props.html) |
+| c                 | string                  | default           |               | 配置名。[使用说明](/guide/props.html#config)    |
+| props             | CellProps               | undefined         |               | 全部 props 。 [使用说明](/guide/props.html) |
 | c-class           | HTMLAttributes['class'] | undefined         |               | 自定义类名 |
 | c-style           | HTMLAttributes['style'] | undefined         |               | 自定义样式 |
 | icon              | string                  | undefined         |               | 左边图标名称或代码  |

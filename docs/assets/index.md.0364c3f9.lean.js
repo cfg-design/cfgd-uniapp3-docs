@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.2d45cadf.js";const A=JSON.parse('{"title":"Cfg Design of Uniapp3","description":"","frontmatter":{"title":"Cfg Design of Uniapp3"},"headers":[],"relativePath":"index.md"}'),p={name:"index.md"},o=l("",9),t=[o];function e(c,r,D,F,y,i){return a(),n("div",null,t)}const d=s(p,[["render",e]]);export{A as __pageData,d as default};

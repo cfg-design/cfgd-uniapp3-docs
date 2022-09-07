@@ -1,0 +1,17 @@
+{
+  "name": "cfg-d-uni-vue3-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src"
+  },
+  "author": "lin09 <315713565@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/theme": "^1.2.2",
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.38"
+  }
+}

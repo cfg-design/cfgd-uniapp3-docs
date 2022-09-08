@@ -245,7 +245,7 @@ const restoreValidation = () => formRef.value!.restoreValidation()
 | content-class    | HTMLAttributes['class']    | undefined         |               | content 的自定义类名 |
 | content-style    | HTMLAttributes['style']    | undefined         |               | content 的自定义样式 |
 | size             | string \| number           | undefined         |               | 字体大小。 [使用说明](/guide/font-sizes.html) |
-| path             | string                     | undefined         |               | Form value 对象的属性名 |
+| path             | string                     | undefined         |               | CForm value 对象的属性名，用于校验 |
 | label            | string                     | undefined         |               | 标签文字 |
 | label-placement  | 'left' \| 'top'            | undefined         |               | 标签显示的位置 |
 | label-width      | string \| number           | undefined         |               | 标签的宽度 |
@@ -255,7 +255,7 @@ const restoreValidation = () => formRef.value!.restoreValidation()
 | right-icon-props | IconProps                  | undefined         |               | [IconProps](/components/icon.html#props)  |
 | error-props      | TextProps                  | undefined         |               | [TextProps](/components/text.html#props)  |
 | disabled         | boolean                    | undefined         |               | 是否禁用 |
-| no-feedback      | boolean                    | undefined         |               | 是否展示校验反馈 |
+| no-feedback      | boolean                    | undefined         |               | 是否不展示校验反馈 |
 | no-label         | boolean                    | undefined         |               | 是否展示标签 |
 | no-require-mark  | boolean                    | undefined         |               | 是否展示必填的星号 |
 | no-border-bottom | boolean                    | undefined         |               | 是否不显示表单项的下划线边框 |
@@ -263,14 +263,14 @@ const restoreValidation = () => formRef.value!.restoreValidation()
 
 ### FormItem Slots {#form-item-slots}
 
-| 名称             | 参数                             | 说明           |
-|:----------------|:------------------------------- |:--------------|
-| default         | ()                              | 自定义 content 左边的内容 |
-| label           | ()                              | 自定义 label  |
-| error           | { errMsg: string | undefined }  | 自定义错误提示 |
+| 名称             | 参数                              | 说明           |
+|:----------------|:--------------------------------- |:--------------|
+| default         | ()                                | 自定义 content 左边的内容 |
+| label           | ()                                | 自定义 label  |
+| error           | ({ errMsg: string \| undefined }) | 自定义错误提示 |
 
 
-### Form Methods validateField 相同}
+### Form Methods {#methods}
 
 | 名称                  | 类型                                                                                                                 | 说明               |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|:------------------|
@@ -280,6 +280,14 @@ const restoreValidation = () => formRef.value!.restoreValidation()
 | restoreValidation    | () => void                                                                                                           | 清空校验结果           |
 | clear                | () => void                                                                                                           | 删除表单数据，并清空校验结果           |
 | reset                | () => void                                                                                                           | 还原表单数据，并清空校验结果           |
+
+### Form Events {#events}
+
+| 名称             | 参数                                    | 说明           |
+|:----------------|:----------------------------------------|:--------------|
+| submit          | (event: any) => void                    | 携带 form 中的数据触发 submit 事件，event.detail = {value : {'name': 'value'} , formId: ''}，report-submit 为 true 时才会返回 formId |
+| reset           | (event: any) => void                    | 表单重置时会触发 reset 事件 |
+| update:value    | (value: FormProps['value']) => void     | value change 时触发 |
 
 ### Form Provides {#provide}
 
@@ -317,5 +325,5 @@ import {
 |:-----------------------------------|:----------------------------------------------------------|:------------------|
 | formItemInjectionKeySize           | InjectionKey\<Ref\<string\>\> = Symbol()                  | 字体大小               |
 | formItemInjectionKeyDisabled       | InjectionKey\<Ref\<boolean\>\> = Symbol()                 | 是否禁用               |
-| formItemInjectionKeyPath           | InjectionKey\<Ref\<string\>\> = Symbol()                  | Form value 对象的属性名               |
-| formItemInjectionKeyNoFeedback     | InjectionKey\<Ref\<boolean\>\> = Symbol()                 | 是否展示校验反馈               |
+| formItemInjectionKeyPath           | InjectionKey\<Ref\<string\>\> = Symbol()                  | CForm value 对象的属性名，用于校验               |
+| formItemInjectionKeyNoFeedback     | InjectionKey\<Ref\<boolean\>\> = Symbol()                 | 是否不展示校验反馈               |

@@ -59,7 +59,9 @@ title: Tag 标签
 | round            | boolean                 | undefined         |               | 是否显示为圆角  |
 | plain            | boolean                 | undefined         |               | 是否镂空  |
 
+### Tag Events {#events}
 
-
-
-
+| 名称             | 参数                     | 说明             |
+|:----------------|:-------------------------|:----------------|
+| click           | (payload: any) => void   | 点击 tab 内容事件 |
+| close           | (payload: any) => void   | 点击关闭 icon 事件 |

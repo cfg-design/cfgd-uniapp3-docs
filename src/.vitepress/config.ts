@@ -88,7 +88,11 @@ const config = defineConfigWithTheme({
     // },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cfg-design/cfgd-uniapp3' },
-    ]
+    ],
+    editLink: {
+      pattern: 'https://github.com/cfg-design/cfgd-uniapp3-docs/edit/master/src/:path',
+      text: '在 GitHub 上编辑此页'
+    }
   }
 })
 

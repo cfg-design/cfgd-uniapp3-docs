@@ -55,3 +55,9 @@ title: Cell 单元格
 | label           | ()        | 左边 label 的内容 |
 | brief           | ()        | 左边 brief 的内容， 在 label 下方 |
 | right           | ()        | 右边的内容 |
+
+### Cell Events {#events}
+
+| 名称             | 参数                     | 说明           |
+|:----------------|:-------------------------|:--------------|
+| click           | (payload: any) => void   | 点击事件       |

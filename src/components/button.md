@@ -75,7 +75,7 @@ title: Button 按钮
 | icon            | string                  | undefined         |               | 图标  |
 | icon-props      | IconProps               | undefined         |               | [IconProps](/components/icon.html#props)  |
 | radius          | string | number         | s                 |               | 圆角值。 [使用说明](/guide/radiuses.html)  |
-| round           | boolean                 | undefined         |               | 是否显示为圆角。  |
+| round           | boolean                 | undefined         |               | 是否显示为圆角  |
 | disabled        | boolean                 | undefined         |               | 是否禁用  |
 | loading         | boolean                 | undefined         |               | 是否加载中  |
 | spin-props      | SpinProps               | undefined         |               | 加载。[SpinProps](/components/spin.html#props)  |
@@ -88,3 +88,9 @@ title: Button 按钮
 | 名称             | 参数      | 说明           |
 |:----------------|:--------- |:--------------|
 | default         | ()        | 按钮的内容     |
+
+### Button Events {#events}
+
+| 名称             | 参数                     | 说明           |
+|:----------------|:-------------------------|:--------------|
+| click           | (payload: any) => void   | 点击事件      |

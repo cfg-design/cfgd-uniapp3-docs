@@ -65,9 +65,9 @@ title: NavBar 导航栏
 | left            | ()        | 左边的内容     |
 | right           | ()        | 右边的内容     |
 
-### Button Events {#events}
+### NavBar Events {#events}
 
 | 名称             | 参数                     | 说明           |
 |:----------------|:-------------------------|:--------------|
 | click:left      | (payload: any) => void   | 点击左边的内容事件      |
-| click :right    | (payload: any) => void   | 点击右边的内容事件      |
+| click:right     | (payload: any) => void   | 点击右边的内容事件      |

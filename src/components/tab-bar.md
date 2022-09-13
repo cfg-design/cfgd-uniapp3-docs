@@ -6,7 +6,6 @@ title: TabBar 底部导航栏
 
 <iframe src="https://cfg-design.github.io/cfgd-uniapp3/#/pages/tabBar/index" style="width: 375px; height: 667px" />
 
-
 :::tip 提示
 - TabBar 组件不可设置固定底部，需和 [BottomBar 底部栏](/components/bottom-bar.html) 一起使用
 :::
@@ -33,7 +32,7 @@ const items: TabBarItemProps[] = [
 ```
 
 ```vue-html
-<c-bottom-bar safe-area-inset-bottom>
+<c-bottom-bar z-index="999" safe-area-inset-bottom>
   <c-line />
   <c-tab-bar :value="0" :items="items" />
 </c-bottom-bar>
@@ -97,7 +96,7 @@ const items: TabBarItemProps[] = [
 
 | 名称             | 参数      | 说明           |
 |:----------------|:--------- |:--------------|
-| item            | ()        | 一项的内容     |
+| item            | ({ index: number, item: TabBarItemProps, active: boolean })        | 每一项的内容     |
 
 ### TabBar Events {#events}
 

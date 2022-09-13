@@ -1,6 +1,6 @@
 {
   "name": "cfg-d-uni-vue3-docs",
-  "version": "1.0.0",
+  "version": "0.0.5",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev src",

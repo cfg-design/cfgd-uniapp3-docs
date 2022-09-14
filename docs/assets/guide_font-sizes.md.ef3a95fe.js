@@ -13,9 +13,8 @@ import{_ as s,c as n,o as a,a as l}from"./app.c960f333.js";const C=JSON.parse('{
 <span class="line"><span style="color:#A6ACCD;">  </span><span style="color:#F07178;">mySize2</span><span style="color:#89DDFF;">:</span><span style="color:#A6ACCD;"> </span><span style="color:#F78C6C;">200</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span><span style="color:#A6ACCD;">)</span></span>
 <span class="line"></span>
-<span class="line"><span style="color:#A6ACCD;">fontSizes</span><span style="color:#89DDFF;">.</span><span style="color:#A6ACCD;">value</span><span style="color:#89DDFF;">.</span><span style="color:#A6ACCD;">mySize1</span></span>
 <span class="line"><span style="color:#A6ACCD;">console</span><span style="color:#89DDFF;">.</span><span style="color:#82AAFF;">log</span><span style="color:#A6ACCD;">(fontSizes</span><span style="color:#89DDFF;">.</span><span style="color:#A6ACCD;">value</span><span style="color:#89DDFF;">.</span><span style="color:#A6ACCD;">mySize1)</span></span>
 <span class="line"><span style="color:#676E95;">// 100</span></span>
 <span class="line"></span></code></pre></div><div class="language-vue-html"><button class="copy"></button><span class="lang">template</span><pre><code><span class="line"><span style="color:#89DDFF;">&lt;</span><span style="color:#F07178;">c-text</span><span style="color:#89DDFF;"> </span><span style="color:#C792EA;">size</span><span style="color:#89DDFF;">=</span><span style="color:#89DDFF;">&quot;</span><span style="color:#C3E88D;">mySize1</span><span style="color:#89DDFF;">&quot;</span><span style="color:#89DDFF;"> /&gt;</span></span>
 <span class="line"><span style="color:#676E95;">&lt;!-- \u5C4F\u5E55\u5BBD\u5EA6\u4E3A 375px \u65F6\uFF1A style=&quot;font-size: 50px;&quot; --&gt;</span></span>
-<span class="line"></span></code></pre></div>`,9),e=[o];function t(c,r,D,y,i,F){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{C as __pageData,d as default};
+<span class="line"></span></code></pre></div>`,9),e=[o];function t(c,r,D,i,y,F){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{C as __pageData,d as default};

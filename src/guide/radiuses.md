@@ -37,7 +37,6 @@ setRadius({
   myRadius2: 50
 })
 
-radius.value.myRadius1
 console.log(radius.value.myRadius1)
 // 30
 ```

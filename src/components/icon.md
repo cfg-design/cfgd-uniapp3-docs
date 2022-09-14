@@ -25,7 +25,9 @@ title: Icon 图标
 ```ts
 // src/main.ts
 import { icons, setIcons } from '@/uni_modules/cfg-design'
-setIcons(icons)
+
+// setIcons(family, icons)
+setIcons('c-icon', icons)
 ```
 
 * [nvue 加载自定义字体](https://uniapp.dcloud.net.cn/tutorial/nvue-api.html#addrule)。
@@ -51,13 +53,13 @@ setIcons(icons)
 import { setIcons, addIcons } from '@/uni_modules/cfg-design'
 
 // 设置图标，会删除之前的图标
-setIcons({
+setIcons('my-icon', {
   home: '\ue839',
   ...
 })
 
 // 添加图标，不会删除之前的图标
-addIcons({
+addIcons('my-icon', {
   home: '\ue839',
   ...
 })
@@ -67,6 +69,8 @@ addIcons({
 
 ```vue-html
 <c-icon name="add-line" />
+
+<c-icon family="my-icon" name="home" />
 ```
 
 ### 颜色

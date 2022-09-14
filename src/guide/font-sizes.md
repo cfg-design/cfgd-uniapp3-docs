@@ -34,7 +34,6 @@ setFontSizes({
   mySize2: 200
 })
 
-fontSizes.value.mySize1
 console.log(fontSizes.value.mySize1)
 // 100
 ```

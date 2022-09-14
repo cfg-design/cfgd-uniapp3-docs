@@ -34,7 +34,6 @@ setColors({
   myColor2: '#123123',
 })
 
-colors.value.myColor1
 console.log(colors.value.myColor1)
 // #7546c9
 ```

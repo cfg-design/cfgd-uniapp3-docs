@@ -51,7 +51,7 @@ title: Text 文本
 | props           | TextProps               | undefined         |               | 全部 props 。 [使用说明](/guide/props.html) |
 | c-class         | HTMLAttributes['class'] | undefined         |               | 自定义类名 |
 | c-style         | HTMLAttributes['style'] | undefined         |               | 自定义样式 |
-| text            | string                  | undefined         |               | 显示文字   |
+| text            | any                     | undefined         |               | 显示文字   |
 | color           | string                  | main              |               | 字体颜色。 [使用说明](/guide/colors.html)   |
 | size            | string \| number        | m                 |               | 字体大小。 [使用说明](/guide/font-sizes.html)   |
 | strong          | boolean                 | false             |               | 是否粗体   |

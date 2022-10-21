@@ -28,7 +28,7 @@ title: LoadMore 加载更多
 | no-more         | boolean                 | undefined         |               | 是否没更多  |
 | text            | string                  | undefined         |               | 默认文案  |
 | loading-text    | string                  | undefined         |               | 加载中的文案  |
-| noMore-text     | string                  | undefined         |               | 没有更多的文案  |
+| no-more-text    | string                  | undefined         |               | 没有更多的文案  |
 | text-props      | TextProps               | undefined         |               | [TextProps](/components/text.html#props)  |
 | line-props      | LineProps               | undefined         |               | [LineProps](/components/line.html#props)  |
 | spin-props      | SpinProps               | undefined         |               | [SpinProps](/components/spin.html#props)  |

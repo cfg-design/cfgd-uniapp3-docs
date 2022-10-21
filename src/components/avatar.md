@@ -35,7 +35,7 @@ title: Avatar 头像
 | props           | AvatarProps             | undefined         |               | 全部 props 。 [使用说明](/guide/props.html) |
 | image-props     | ImageProps              | undefined         |               | CAvatar 组件是引用 CImage 实现的。[ImageProps](/components/image.html#props) |
 | src             | string                  | undefined         |               | 图片资源地址   |
-| size            | string \| number        | undefined         |               | 大小。 [使用说明](/guide/font-sizes.html)   |
+| size            | string \| number        | undefined         |               | 大小。  |
 | radius          | string \| number        | undefined         |               | 圆角值。 [使用说明](/guide/radiuses.html)  |
 | round           | boolean                 | undefined         |               | 是否显示为圆形  |
 

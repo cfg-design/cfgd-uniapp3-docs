@@ -78,7 +78,7 @@ const items: TabItemProps[] = [
 | badge              | BadgeProps['text']        | undefined         |               | 右上角的角标提示信息 |
 | badge-props        | BadgeProps                | undefined         |               | [BadgeProps](/components/badge.html#props)  |
 | dot                | boolean                   | undefined         |               | 提示是否显示圆点  |
-| lineProps          | LineProps                 | undefined         |               | [LineProps](/components/line.html#props)  |
+| line-props         | LineProps                 | undefined         |               | [LineProps](/components/line.html#props)  |
 
 ### Tabs Slots {#slots}
 

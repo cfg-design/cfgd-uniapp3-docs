@@ -67,14 +67,14 @@ title: Button 按钮
 | color           | string                  | undefined         |               | 按钮颜色。 [使用说明](/guide/colors.html)   |
 | color2          | string                  | undefined         |               | 与 color 组成渐变背景。  |
 | size            | string \| number        | m                 |               | 字体大小。 [使用说明](/guide/font-sizes.html)   |
-| width           | string | number         | undefined         |               | 宽度  |
-| height          | string | number         | undefined         |               | 高度  |
+| width           | string \| number        | undefined         |               | 宽度  |
+| height          | string \| number        | undefined         |               | 高度  |
 | text            | string                  | undefined         |               | 文字  |
 | text-color      | string                  | undefined         |               | 文字的颜色  |
 | text-props      | TextProps               | undefined         |               | [TextProps](/components/text.html#props)  |
 | icon            | string                  | undefined         |               | 图标  |
 | icon-props      | IconProps               | undefined         |               | [IconProps](/components/icon.html#props)  |
-| radius          | string | number         | s                 |               | 圆角值。 [使用说明](/guide/radiuses.html)  |
+| radius          | string \| number        | s                 |               | 圆角值。 [使用说明](/guide/radiuses.html)  |
 | round           | boolean                 | undefined         |               | 是否显示为圆角  |
 | disabled        | boolean                 | undefined         |               | 是否禁用  |
 | loading         | boolean                 | undefined         |               | 是否加载中  |
@@ -94,3 +94,5 @@ title: Button 按钮
 | 名称             | 参数                     | 说明           |
 |:----------------|:-------------------------|:--------------|
 | click           | (payload: any) => void   | 点击事件      |
+
+* 更多 Events 请查看 [uniapp button](https://uniapp.dcloud.net.cn/component/button.html#)

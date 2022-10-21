@@ -59,7 +59,7 @@ const updateValue = (v: any) => {
 | c-class                | HTMLAttributes['class']       | undefined         |               | 自定义类名 |
 | c-style                | HTMLAttributes['style']       | undefined         |               | 自定义样式 |
 | color                  | string                        | primary           |               | 颜色。 [使用说明](/guide/colors.html)   |
-| bgColor                | string                        | undefined         |               | 背景颜色。 [使用说明](/guide/colors.html)   |
+| bg-color               | string                        | undefined         |               | 背景颜色。 [使用说明](/guide/colors.html)   |
 | size                   | string \| number              | m                 |               | 字体大小。 [使用说明](/guide/font-sizes.html)   |
 | value                  | string \| number \| boolean   | undefined         |               | 选中的值  |
 | checked-value          | string \| number \| boolean   | undefined         |               | 选中时的值  |

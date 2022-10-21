@@ -34,6 +34,7 @@ const config = defineConfigWithTheme({
           { text: 'Line 线条', link: '/components/line.html' },
           { text: 'Badge 徽标', link: '/components/badge.html' },
           { text: 'Tag 标签', link: '/components/tag.html' },
+          { text: 'Card 卡片', link: '/components/card.html' },
         ]
       },
       {
@@ -51,6 +52,7 @@ const config = defineConfigWithTheme({
       {
         text: '数据展示组件',
         items: [
+          { text: 'Descriptions 描述', link: '/components/descriptions.html' },
           { text: 'Empty 无内容', link: '/components/empty.html' },
         ]
       },
@@ -63,10 +65,12 @@ const config = defineConfigWithTheme({
         ]
       },
       {
-        text: '导航组件',
+        text: '反馈组件',
         items: [
           { text: 'Progress 进度条', link: '/components/progress.html' },
           { text: 'LoadMore 加载更多', link: '/components/load-more.html' },
+          { text: 'Popup 弹窗', link: '/components/popup.html' },
+          { text: 'NoticeBar 通知栏', link: '/components/notice-bar.html' },
         ]
       },
       {
